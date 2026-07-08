@@ -1,8 +1,7 @@
 # 브라우저는 http://localhost:3000 만 사용 (gateway → backend / frontend)
 services:
   backend:
-    build:
-      context: ./minho
+    image: pmhllll12/minho-backend:latest
     ports:
       - "8000:8000"
     expose:
